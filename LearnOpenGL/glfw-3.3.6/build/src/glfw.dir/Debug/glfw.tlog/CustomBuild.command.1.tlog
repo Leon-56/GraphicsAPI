@@ -1,0 +1,10 @@
+^D:\LEARNOPENGL\GLFW-3.3.6\SRC\CMAKELISTS.TXT
+setlocal
+D:\CXX\cmake-3.23.0-rc2-windows-x86_64\bin\cmake.exe -SD:/LearnOpenGL/glfw-3.3.6 -BD:/LearnOpenGL/glfw-3.3.6/build --check-stamp-file D:/LearnOpenGL/glfw-3.3.6/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

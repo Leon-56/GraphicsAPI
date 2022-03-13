@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\leonslhu\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\leonslhu\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GLFW.-1046494174.00" t="ExcludeRecursive" />
+    <e p="D:\LearnOpenGL\glfw-3.3.6" t="Include">
+      <e p="build" t="IncludeRecursive">
+        <e p="ALL_BUILD.vcxproj" t="IncludeRecursive" />
+        <e p="CMakeFiles" t="Include">
+          <e p="383d9bc3bc44f186dd96359eeeb7b99c" t="Include">
+            <e p="update_mappings.rule" t="Include" />
+          </e>
+          <e p="9077489127bfb003411c30fa2a4729f0" t="Include">
+            <e p="generate.stamp.rule" t="Include" />
+            <e p="INSTALL_force.rule" t="Include" />
+            <e p="uninstall.rule" t="Include" />
+          </e>
+          <e p="uninstall" t="Include" />
+        </e>
+        <e p="CMakePredefinedTargets" t="Include" />
+        <e p="Examples" t="IncludeRecursive">
+          <e p="boing.dir\Debug" t="ExcludeRecursive" />
+          <e p="boing.vcxproj" t="IncludeRecursive" />
+          <e p="Debug" t="ExcludeRecursive" />
+          <e p="gears.dir\Debug" t="ExcludeRecursive" />
+          <e p="gears.vcxproj" t="IncludeRecursive" />
+          <e p="heightmap.dir\Debug" t="ExcludeRecursive" />
+          <e p="heightmap.vcxproj" t="IncludeRecursive" />
+          <e p="offscreen.dir\Debug" t="ExcludeRecursive" />
+          <e p="offscreen.vcxproj" t="IncludeRecursive" />
+          <e p="particles.dir\Debug" t="ExcludeRecursive" />
+          <e p="particles.vcxproj" t="IncludeRecursive" />
+          <e p="sharing.dir\Debug" t="ExcludeRecursive" />
+          <e p="sharing.vcxproj" t="IncludeRecursive" />
+          <e p="simple.dir\Debug" t="ExcludeRecursive" />
+          <e p="simple.vcxproj" t="IncludeRecursive" />
+          <e p="splitview.dir\Debug" t="ExcludeRecursive" />
+          <e p="splitview.vcxproj" t="IncludeRecursive" />
+          <e p="wave.dir\Debug" t="ExcludeRecursive" />
+          <e p="wave.vcxproj" t="IncludeRecursive" />
+        </e>
+        <e p="GLFW.sln" t="IncludeFlat" />
+        <e p="GLFW3" t="Include">
+          <e p="GLFW3\Examples" t="Include" />
+          <e p="GLFW3\Tests" t="Include" />
+        </e>
+        <e p="INSTALL.vcxproj" t="IncludeRecursive" />
+        <e p="packages" t="ExcludeRecursive" />
+        <e p="src" t="IncludeRecursive">
+          <e p="CMakeFiles" t="Include">
+            <e p="update_mappings" t="Include" />
+          </e>
+          <e p="Debug" t="ExcludeRecursive" />
+          <e p="glfw.dir\Debug" t="ExcludeRecursive" />
+          <e p="glfw.vcxproj" t="IncludeRecursive" />
+          <e p="glfw_config.h" t="Include" />
+          <e p="update_mappings.vcxproj" t="IncludeRecursive" />
+          <e p="x64\Debug\update_mappings" t="ExcludeRecursive" />
+        </e>
+        <e p="Tests" t="IncludeRecursive">
+          <e p="clipboard.dir\Debug" t="ExcludeRecursive" />
+          <e p="clipboard.vcxproj" t="IncludeRecursive" />
+          <e p="cursor.dir\Debug" t="ExcludeRecursive" />
+          <e p="cursor.vcxproj" t="IncludeRecursive" />
+          <e p="Debug" t="ExcludeRecursive" />
+          <e p="empty.dir\Debug" t="ExcludeRecursive" />
+          <e p="empty.vcxproj" t="IncludeRecursive" />
+          <e p="events.dir\Debug" t="ExcludeRecursive" />
+          <e p="events.vcxproj" t="IncludeRecursive" />
+          <e p="gamma.dir\Debug" t="ExcludeRecursive" />
+          <e p="gamma.vcxproj" t="IncludeRecursive" />
+          <e p="glfwinfo.dir\Debug" t="ExcludeRecursive" />
+          <e p="glfwinfo.vcxproj" t="IncludeRecursive" />
+          <e p="icon.dir\Debug" t="ExcludeRecursive" />
+          <e p="icon.vcxproj" t="IncludeRecursive" />
+          <e p="iconify.dir\Debug" t="ExcludeRecursive" />
+          <e p="iconify.vcxproj" t="IncludeRecursive" />
+          <e p="inputlag.dir\Debug" t="ExcludeRecursive" />
+          <e p="inputlag.vcxproj" t="IncludeRecursive" />
+          <e p="joysticks.dir\Debug" t="ExcludeRecursive" />
+          <e p="joysticks.vcxproj" t="IncludeRecursive" />
+          <e p="monitors.dir\Debug" t="ExcludeRecursive" />
+          <e p="monitors.vcxproj" t="IncludeRecursive" />
+          <e p="msaa.dir\Debug" t="ExcludeRecursive" />
+          <e p="msaa.vcxproj" t="IncludeRecursive" />
+          <e p="opacity.dir\Debug" t="ExcludeRecursive" />
+          <e p="opacity.vcxproj" t="IncludeRecursive" />
+          <e p="reopen.dir\Debug" t="ExcludeRecursive" />
+          <e p="reopen.vcxproj" t="IncludeRecursive" />
+          <e p="tearing.dir\Debug" t="ExcludeRecursive" />
+          <e p="tearing.vcxproj" t="IncludeRecursive" />
+          <e p="threads.dir\Debug" t="ExcludeRecursive" />
+          <e p="threads.vcxproj" t="IncludeRecursive" />
+          <e p="timeout.dir\Debug" t="ExcludeRecursive" />
+          <e p="timeout.vcxproj" t="IncludeRecursive" />
+          <e p="title.dir\Debug" t="ExcludeRecursive" />
+          <e p="title.vcxproj" t="IncludeRecursive" />
+          <e p="triangle-vulkan.dir\Debug" t="ExcludeRecursive" />
+          <e p="triangle-vulkan.vcxproj" t="IncludeRecursive" />
+          <e p="windows.dir\Debug" t="ExcludeRecursive" />
+          <e p="windows.vcxproj" t="IncludeRecursive" />
+        </e>
+        <e p="uninstall.vcxproj" t="IncludeRecursive" />
+        <e p="x64\Debug" t="ExcludeRecursive">
+          <e p="ALL_BUILD" t="ExcludeRecursive" />
+          <e p="INSTALL" t="ExcludeRecursive" />
+          <e p="uninstall" t="ExcludeRecursive" />
+          <e p="ZERO_CHECK" t="ExcludeRecursive" />
+        </e>
+        <e p="ZERO_CHECK.vcxproj" t="IncludeRecursive" />
+      </e>
+      <e p="CMake" t="Include">
+        <e p="GenerateMappings.cmake" t="Include" />
+      </e>
+      <e p="CMakeLists.txt" t="Include" />
+      <e p="deps" t="Include">
+        <e p="getopt.c" t="Include" />
+        <e p="getopt.h" t="Include" />
+        <e p="glad" t="Include">
+          <e p="gl.h" t="Include" />
+          <e p="vulkan.h" t="Include" />
+        </e>
+        <e p="glad_gl.c" t="Include" />
+        <e p="glad_vulkan.c" t="Include" />
+        <e p="tinycthread.c" t="Include" />
+        <e p="tinycthread.h" t="Include" />
+      </e>
+      <e p="Examples" t="Include">
+        <e p="boing.c" t="Include" />
+        <e p="CMakeLists.txt" t="Include" />
+        <e p="gears.c" t="Include" />
+        <e p="glfw.rc" t="Include" />
+        <e p="heightmap.c" t="Include" />
+        <e p="offscreen.c" t="Include" />
+        <e p="particles.c" t="Include" />
+        <e p="sharing.c" t="Include" />
+        <e p="simple.c" t="Include" />
+        <e p="splitview.c" t="Include" />
+        <e p="wave.c" t="Include" />
+      </e>
+      <e p="include\GLFW" t="Include">
+        <e p="glfw3.h" t="Include" />
+        <e p="glfw3native.h" t="Include" />
+      </e>
+      <e p="src" t="Include">
+        <e p="CMakeLists.txt" t="Include" />
+        <e p="context.c" t="Include" />
+        <e p="egl_context.c" t="Include" />
+        <e p="egl_context.h" t="Include" />
+        <e p="init.c" t="Include" />
+        <e p="input.c" t="Include" />
+        <e p="internal.h" t="Include" />
+        <e p="mappings.h" t="Include" />
+        <e p="mappings.h.in" t="Include" />
+        <e p="monitor.c" t="Include" />
+        <e p="osmesa_context.c" t="Include" />
+        <e p="osmesa_context.h" t="Include" />
+        <e p="vulkan.c" t="Include" />
+        <e p="wgl_context.c" t="Include" />
+        <e p="wgl_context.h" t="Include" />
+        <e p="win32_init.c" t="Include" />
+        <e p="win32_joystick.c" t="Include" />
+        <e p="win32_joystick.h" t="Include" />
+        <e p="win32_monitor.c" t="Include" />
+        <e p="win32_platform.h" t="Include" />
+        <e p="win32_thread.c" t="Include" />
+        <e p="win32_time.c" t="Include" />
+        <e p="win32_window.c" t="Include" />
+        <e p="window.c" t="Include" />
+      </e>
+      <e p="Tests" t="Include">
+        <e p="clipboard.c" t="Include" />
+        <e p="CMakeLists.txt" t="Include" />
+        <e p="cursor.c" t="Include" />
+        <e p="empty.c" t="Include" />
+        <e p="events.c" t="Include" />
+        <e p="gamma.c" t="Include" />
+        <e p="glfwinfo.c" t="Include" />
+        <e p="icon.c" t="Include" />
+        <e p="iconify.c" t="Include" />
+        <e p="inputlag.c" t="Include" />
+        <e p="joysticks.c" t="Include" />
+        <e p="monitors.c" t="Include" />
+        <e p="msaa.c" t="Include" />
+        <e p="opacity.c" t="Include" />
+        <e p="reopen.c" t="Include" />
+        <e p="tearing.c" t="Include" />
+        <e p="threads.c" t="Include" />
+        <e p="timeout.c" t="Include" />
+        <e p="title.c" t="Include" />
+        <e p="triangle-vulkan.c" t="Include" />
+        <e p="windows.c" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
