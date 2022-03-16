@@ -21,6 +21,14 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fragmentSource.frag" />
+    <Content Include="vertexSource.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -82,8 +90,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\LearnOpenGL\OGL\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\LearnOpenGL\OGL\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Projects\GraphicsAPI\LearnOpenGL\OGL\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Projects\GraphicsAPI\LearnOpenGL\OGL\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
