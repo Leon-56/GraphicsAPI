@@ -25,10 +25,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="awesomeface.png" />
+    <Content Include="container.jpg" />
     <Content Include="fragmentSource.frag" />
     <Content Include="vertexSource.vert" />
+    <Content Include="wall.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
