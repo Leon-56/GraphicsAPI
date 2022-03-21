@@ -2,6 +2,10 @@
 #include<GLFW/glfw3.h>
 #include<iostream>
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #include "Shader.h"
@@ -127,6 +131,8 @@ int main()
 	glBindVertexArray(0);
 #pragma endregion
 
+	unsigned int transformLoc = glGetUniformLocation(myShader->ID, "transform");
+
 	while (!glfwWindowShouldClose(window))
 	{
 		processInput(window);
@@ -150,8 +156,14 @@ int main()
 
 		myShader->use();
 
+		glm::mat4 trans = glm::mat4(1.0f);
+		trans = glm::translate(trans, glm::vec3(0.5f, -0.5f, 0.0f));
+		trans = glm::rotate(trans, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f));
+		glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(trans));
+
 		glBindVertexArray(VAO);
-		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0); 
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
