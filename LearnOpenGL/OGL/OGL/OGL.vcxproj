@@ -246,6 +246,7 @@
     <Content Include="Resource\container.jpg" />
     <Content Include="Resource\wall.jpg" />
     <Content Include="Shader\fragmentSource.frag" />
+    <Content Include="Shader\light.frag" />
     <Content Include="Shader\vertexSource.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
