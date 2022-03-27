@@ -245,6 +245,7 @@
     <Content Include="Resource\awesomeface.png" />
     <Content Include="Resource\container.jpg" />
     <Content Include="Resource\container2.png" />
+    <Content Include="Resource\container2_specular.png" />
     <Content Include="Resource\wall.jpg" />
     <Content Include="Shader\fragmentSource.frag" />
     <Content Include="Shader\light.frag" />
