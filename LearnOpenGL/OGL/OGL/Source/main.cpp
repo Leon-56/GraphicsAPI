@@ -235,6 +235,7 @@ int main()
 		myShader->setVec3("objectColor", glm::vec3(1.0f, 0.5f, 0.31f));
 		myShader->setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
 		myShader->setVec3("lightPos", lightPos);
+		myShader->setVec3("viewPos", camera.Position);
 
 		// pass projection matrix to shader (note that in this case it could change every frame)
 		glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
